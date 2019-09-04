@@ -12,7 +12,7 @@ document.getElementsByClassName('pv-profile-section__card-action-bar pv-skills-s
 
 wait(1000);
 
-var list = document.getElementsByClassName('pv-skill-entity__featured-endorse-button-shared button-secondary-medium-round');
+var list = document.getElementsByClassName('pv-skill-entity__featured-endorse-button-shared artdeco-button artdeco-button--circle artdeco-button--1 artdeco-button--secondary ember-view');
 for (var i = 0; i < list.length; i++) {
     list[i].click();
     wait(500);
